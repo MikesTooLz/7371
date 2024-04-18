@@ -8,7 +8,7 @@ $excelURL = "https://github.com/MikesTooLz/7371/raw/main/PC-List.xlsx"
 $tempFilePath = "$env:TEMP\tempfile.xlsx"
 
 # Download the Excel file from the web URL
-Invoke-WebRequest -Uri $excelURL -OutFile $tempFilePath
+Invoke-WebRequest -Uri $excelURL -OutFile $tempFilePath -Force
 
 # Create an instance of Excel COM object
 $excel = New-Object -ComObject Excel.Application
