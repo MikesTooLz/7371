@@ -2,7 +2,7 @@
 $computerName = (hostname)
 
 # URL of the Excel spreadsheet (Raw link from GitHub)
-$excelURL = "https://github.com/MikesTooLz/7371/raw/main/SysLogOn.xlsx"
+$excelURL = "https://github.com/MikesTooLz/7371/raw/main/UserLogOn.xlsx"
 
 # Path to temporarily save the downloaded file
 $tempFilePath = "$env:TEMP\tempfile.xlsx"
